@@ -23,8 +23,8 @@ thing BLE includes BLEServer, BLEServerInternal
   			if( key == \'_noble\') { return value.id;}
   			else {return value;}
 			});'
-  		BLEInternal!stateChange('perStr')'
-  		console.log(\'sent state \' +perStr)	
+  		BLEInternal!discover('perStr')'
+  		//console.log(\'sent state \' +perStr)	
 		});'
 		
 	end
